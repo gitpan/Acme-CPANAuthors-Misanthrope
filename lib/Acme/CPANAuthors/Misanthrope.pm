@@ -1,21 +1,23 @@
 package Acme::CPANAuthors::Misanthrope;
-
-use strict;
 use warnings;
+use strict;
 
-our $VERSION = "1.02";
+our $VERSION = "1.03";
 
-use Acme::CPANAuthors::Register (
-                                 ASHLEY => "Ashley Pond V",
-                                 JROCKWAY => "Jonathan Rockway",
-                                 MJD => "Mark Jason Dominus",
-                                 MSCHWERN => "Michael G Schwern",
-                                 MSTROUT => "Matt S Trout",
-                                 RJBS => "Ricardo SIGNES",
-                                 SUNGO => "sungo",
-                                 );
+use Acme::CPANAuthors::Register
+    (
+     ASHLEY => "Ashley Pond V", # Hey, who chose alphabetical id order?
+     JROCKWAY => "Jonathan Rockway",
+     MJD => "Mark Jason Dominus",
+     MSCHWERN => "Michael G Schwern",
+     MSTROUT => "Matt S Trout",
+     RJBS => "Ricardo SIGNES",
+     RIBASUSHI => "Peter Rabbitson",
+     SSCAFFIDI => "Stephen R. Scaffidi",
+     SUNGO => "sungo",
+    );
 
-1;
+"aspHinCteRsaYswhAt?";
 
 __END__
 
@@ -55,7 +57,7 @@ Ashley Pond V, C<< <ashley at cpan.org> >>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2008 Ashley Pond V, all rights reserved.
+Copyright (c) 2008-2011 Ashley Pond V, all rights reserved.
 
 This program is free software; you can redistribute it and modify it under the same terms as Perl itself. Because you know deep down you're just another dirty thief.
 
